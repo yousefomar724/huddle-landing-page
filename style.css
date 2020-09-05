@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../huddle-landing-page/images/bg-desktop.svg") no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-page {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    margin: 30px 0;
+}
+
+/*.main-section {
+    width: 55%;
+    float: left;
+}*/
+
+/*.mockups {
+    width: 55%;
+    margin-right: 2%;
+    float: left;
+}
+
+.mockups img {
+    width: 100%;
+}
+
+.section {
+    width: 42%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}*/
+
+.main-section {
+    display: flex;
+}
+
+.mockups {
+    flex: 1;
+}
+
+.section {
+    flex: 1;
+    padding: 50px 0 0 50px;
+    width: 100%;
+}
+
+.section h3 {
+    font-size: 2.3em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.section button {
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #ffffff;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.1em;
+}
+
+.social {
+    float: right;
+    margin: 20px 0 15px;
+}
+
+.social i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background: url("../huddle-landing-page/images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+    }
+
+    .logo {
+        width: 60%;
+        padding: 40px;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-section img {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .section {
+        text-align: center;
+        width: 90%;
+    }
+
+    .section h3 {
+        margin-top: 30px;
+        font-size: 1.9em;
+    }
+
+    .section button {
+        width: 250px;
+        margin: 40px 0 20px;
+    }
+
+    .social {
+        transform: translate(-48%, -10%);
+        margin: 60px;
+    }
+
+
+}
