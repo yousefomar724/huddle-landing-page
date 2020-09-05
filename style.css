@@ -25,7 +25,8 @@ h5 {
 }
 
 .logo {
-    margin: 30px 0;
+    margin: 30px 0 50px;
+    width: 15%;
 }
 
 /*.main-section {
@@ -58,6 +59,7 @@ h5 {
 
 .mockups {
     flex: 1;
+    width: 50%;
 }
 
 .section {
@@ -88,6 +90,14 @@ h5 {
     background-color: #ffffff;
     color: hsl(257, 40%, 49%);
     font-size: 1.1em;
+    cursor: pointer;
+    border: 2px solid hsl(257, 40%, 49%);
+}
+
+.section button:hover {
+    background-color: hsl(257, 40%, 49%);
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 .social {
@@ -96,8 +106,20 @@ h5 {
 }
 
 .social i {
-    padding: 10px;
-    font-size: 30px;
+    padding: 9px;
+    width: 40px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50%;
+    /*if width and height are equal will circl*/
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: hsl(257, 40%, 49%);
+    background-color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
