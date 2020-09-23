@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("../huddle-landing-page/images/bg-desktop.svg") no-repeat;
+    background: url("images/bg-desktop.svg") no-repeat;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
@@ -125,7 +125,7 @@ h5 {
 @media screen and (max-width: 768px) {
 
     body {
-        background: url("../huddle-landing-page/images/bg-mobile.svg") no-repeat;
+        background: url("images/bg-mobile.svg") no-repeat;
         background-color: hsl(257, 40%, 49%);
         background-size: contain;
     }
@@ -164,6 +164,4 @@ h5 {
         transform: translate(-48%, -10%);
         margin: 60px;
     }
-
-
 }
