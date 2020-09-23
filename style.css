@@ -6,6 +6,7 @@
 
 body {
     background: url("images/bg-desktop.svg") no-repeat;
+    background-size: contain;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
@@ -21,6 +22,7 @@ h5 {
 
 .main-page {
     width: 90%;
+    height: 100vh;
     margin: auto;
 }
 
@@ -28,30 +30,6 @@ h5 {
     margin: 30px 0 50px;
     width: 15%;
 }
-
-/*.main-section {
-    width: 55%;
-    float: left;
-}*/
-
-/*.mockups {
-    width: 55%;
-    margin-right: 2%;
-    float: left;
-}
-
-.mockups img {
-    width: 100%;
-}
-
-.section {
-    width: 42%;
-    float: left;
-}
-
-.clearfix {
-    clear: both;
-}*/
 
 .main-section {
     display: flex;
@@ -101,17 +79,17 @@ h5 {
 }
 
 .social {
-    float: right;
-    margin: 20px 0 15px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .social i {
     padding: 9px;
     width: 40px;
     font-size: 16px;
-    margin: 5px;
+    margin: 20px 7px;
     text-align: center;
-    border: 2px solid;
+    border: 1.2px solid;
     border-radius: 50%;
     /*if width and height are equal will circl*/
     cursor: pointer;
@@ -160,8 +138,5 @@ h5 {
         margin: 40px 0 20px;
     }
 
-    .social {
-        transform: translate(-48%, -10%);
-        margin: 60px;
-    }
+    .social{justify-content: center;margin: 20px 0;padding: 0;}
 }
